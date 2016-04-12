@@ -104,7 +104,7 @@ public class PQ<T extends Comparable<T>> implements Iterable<T> {
 
 		@Override
 		public boolean hasNext() {
-			return PQ.this.isEmpty();
+			return ! PQ.this.isEmpty();
 		}
 
 		@Override
