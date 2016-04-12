@@ -25,5 +25,8 @@ public class Main {
 			Runnable r = () -> System.out.println(i.next().getPriority() + "-> priority.");
 			r.run();
 		}
+		
+		Runnable r = () -> System.out.println(pqueue.isEmpty() + " true implies Queue is empty");
+		r.run();
 	}
 }
